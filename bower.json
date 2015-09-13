@@ -1,0 +1,17 @@
+{
+  "name": "na-error-propagation",
+  "main": "./na-error-propagation.js",
+  "homepage": "https://github.com/tfoxy/na-error-propagation",
+  "dependencies": {
+    "nerdamer": "jiggzson/nerdamer#>=v0.5.0"
+  },
+  "devDependencies": {},
+  "ignore": [
+    "**/*",
+    "!na-error-propagation.js",
+    "!na-error-propagation.min.js",
+    "!LICENSE"
+  ],
+  "author": "Tomás Fox <tomas.c.fox@gmail.com>",
+  "license": "MIT"
+}

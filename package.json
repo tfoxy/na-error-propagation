@@ -1,0 +1,36 @@
+{
+  "name": "na-error-propagation",
+  "version": "0.1.0",
+  "description": "Calculates the error propagation",
+  "main": "./na-error-propagation",
+  "scripts": {
+    "test": "mocha",
+    "min": "uglifyjs na-error-propagation.js --comments '/^!/' --compress --mangle -o na-error-propagation.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tfoxy/na-error-propagation"
+  },
+  "bugs": {
+    "url": "https://github.com/tfoxy/na-error-propagation/issues"
+  },
+  "keywords": [
+    "error",
+    "uncertainty",
+    "propagation",
+    "absolute",
+    "relative"
+  ],
+  "dependencies": {
+    "nerdamer": "^0.5.0"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "jscs": "^2.1.1",
+    "jshint": "^2.8.0",
+    "mocha": "^2.3.2",
+    "sinon": "^1.16.1"
+  },
+  "author": "Tomás Fox <tomas.c.fox@gmail.com>",
+  "license": "MIT"
+}
