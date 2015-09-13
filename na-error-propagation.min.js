@@ -1,7 +1,7 @@
 /*!
  * na-error-propagation
  * @see https://github.com/tfoxy/na-error-propagation
- * @version 0.1.0
+ * @version 0.1.1
  * @author Tomás Fox <tomas.c.fox@gmail.com>
  * @license MIT
  */

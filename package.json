@@ -1,6 +1,6 @@
 {
   "name": "na-error-propagation",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Calculates the error propagation",
   "main": "./na-error-propagation",
   "scripts": {

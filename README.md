@@ -21,6 +21,7 @@ var nerdamer = require('nerdamer');
 GLOBAL.nerdamer = nerdamer;
 require('nerdamer/Calculus');
 delete GLOBAL.nerdamer;
+ErrorPropagation.nerdamer = nerdamer;
 
 var errorPropagation = new ErrorPropagation({
   correlation: 'both'
