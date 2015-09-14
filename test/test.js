@@ -56,6 +56,17 @@ describe('ErrorPropagation', function() {
         expect(fn).to.throw(ErrorPropagation.InputError);
       });
 
+      it('emits error if no expression is given', function() {
+        var errorPropagation = new ErrorPropagation();
+        var spy = sinon.spy();
+        errorPropagation.on('error', spy);
+        errorPropagation.calculate();
+        sinon.assert.calledOnce(spy);
+
+        var error = spy.args[0][0];
+        expect(error).to.be.an.instanceOf(ErrorPropagation.InputError);
+      });
+
       it('throws error if expression is invalid', function() {
         var errorPropagation = new ErrorPropagation();
         var fn = errorPropagation.calculate.bind(errorPropagation, '**3**+/-');
